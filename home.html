@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Taste Ah Deh Caribbean</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> 
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+    </head>
+
+    <body>
+      <header style="background-color:#6bcba4">
+        <img src="Caribbean (1).png" class="round" width="150" height="79" align="right">
+        <h1 style="font-size:70px; color:white; font-family: Brush Script MT; ">Taste Ah Deh Caribbean</h1>
+
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: #78dfb6">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Menu</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>    
+              </ul>
+            </div>
+            <button class="btn btn-outline-success" type="submit">Login</button>
+          </div>
+         
+        </nav>
+      </header>
+
+
+          <div id="demo" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="black_bean_soup.png" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Soups</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="caymon-style-bouillabaisse.png" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Seafood</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="coconut_rum_banana.png" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Desserts</h3>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
+
+          <div class="container p-3">
+            <div class="row">
+              <div class="col" style="text-align: center; font-size: 20px;">
+                <header style="font-family:cursive; font-size: 30px;color:#d73059;">Welcome</header>
+                <br>
+                <div>
+                  <div class="card" style="width:500px;">
+                    <img class="card-img-top" src="Virgin_Islands.png " alt=" U.S. Virgin Islands" style="width:100%; height:90;">
+                    <div class="card-body">
+                      <p> A restaurant that brings delicious cuisines from throughout the Caribbean.
+                        Our restaurant that specializes in cuisines from the U.S. Virgin Islands, Jamaica, and Trinadad. 
+                        Come and indulge oyurself in traditional Caribbean cuisines.</p>
+
+                    </div>
+                  </div>
+    
+            
+                </div>
+                
+                
+              </div>
+              <div class="col" style="font-size: 20px; text-align: center">
+                <header style="font-family:cursive; font-size: 30px;color:#ffb600;">What's New</header>
+                <br>
+                <div class="card mx-auto" style="width:410px;">
+                  <div class="card-body">
+                    <p class="card-text">Come and try our new weekly special dishes with your entire family! 
+                      Also visit on Fridays and Saturday nights to enjoy live entertainment!                   
+                    </p>
+                  </div>
+                  <img class="card-img-bottom" src="music.png" alt="Card image" style="width:100%; height:375px;">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <br><hr>
+          <div class="container" >
+            <div class="row">
+              <div class="col" style=" text-align: center; font-size: 20px;">
+                <header style="font-family:cursive; font-size: 30px; color: #ffb600">Make a Reservation</header>
+
+                <div >
+                <br>
+                <p>Call us at <b style="color:#d73059">(804) 984-4530</b> or reserve online to book a table.</p>
+                <div class="container mt-5">
+                <button type="submit" class="btn btn-light" style="background-color:#6bcba4; color: white" 
+                 data-bs-toggle="modal" data-bs-toggle="modal" data-bs-target="#myModal">Book Your Reservation</button>
+                </div>
+
+
+                <!--Creating a modal-->
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                
+                      <div class="modal-header">
+                        <h4 class="modal-title" style="font-family: cursive;color:#d73059;">Your Reservation</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+  
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <form>
+
+                          <!--Date-->
+                          <select class="form-select form-select-lg" aria-label=".form-select-sm">
+                            <option selected>Date</option>
+                            <option value="1">12/06/22</option>
+                            <option value="2">12/07/22</option>
+                            <option value="3">12/08/22</option>
+                            <option value="4">12/09/22</option>
+                            <option value="5">12/10/22</option>
+                            <option value="6">12/11/22</option>
+                            <option value="7">12/12/22</option>
+                            <option value="8">12/13/22</option>
+                            <option value="9">12/14/22</option>
+                            <option value="10">12/15/22</option>
+                            <option value="11">12/16/22</option>
+                            <option value="12">12/17/22</option>
+                            <option value="13">12/18/22</option>
+                            <option value="14">12/19/22</option>
+                            <option value="15">12/20/22</option>
+                            <option value="16">12/21/22</option>
+                            <option value="17">12/22/22</option>
+                            <option value="18">12/23/22</option>
+                            <option value="19">12/26/22</option>
+                            <option value="20">12/27/22</option>
+                            <option value="21">12/28/22</option>
+                            <option value="22">12/29/22</option>
+                            <option value="22">12/30/22</option>
+                            <option value="22">12/31/22</option>
+                          </select>
+                          <br>
+                        
+                          <select class="form-select form-select-lg" aria-label=".form-select-sm">
+                            <option selected>Time</option>
+                            <option value="1">11:00</option>
+                            <option value="2">11:30</option>
+                            <option value="3">12:00</option>
+                            <option value="4">12:30</option>
+                            <option value="5">1:00</option>
+                            <option value="6">1:30</option>
+                            <option value="7">2:00</option>
+                            <option value="8">2:30</option>
+                            <option value="9">3:00</option>
+                            <option value="10">3:30</option>
+                            <option value="11">4:00</option>
+                            <option value="12">4:30</option>
+                            <option value="13">5:00</option>
+                            <option value="14">5:30</option>
+                            <option value="15">6:00</option>
+                            <option value="16">6:30</option>
+                            <option value="17">7:00</option>
+                            <option value="18">7:30</option>
+                            <option value="19">8:00</option>
+                            <option value="20">8:30</option>
+                            <option value="21">9:00</option>
+                            <option value="22">9:30</option>
+                          </select>
+
+                          <br> 
+                          <select class="form-select form-select-lg" aria-label=".form-select-sm">
+                            <option selected>Table</option>
+                            <option value="1">1 person</option>
+                            <option value="2">2 people</option>
+                            <option value="3">3 people</option>
+                            <option value="4">4 people</option>
+                            <option value="5">5 people</option>
+                            <option value="6">6 people</option>
+                            <option value="7">7 people</option>
+                            <option value="8">8 people</option>
+                            <option value="9">9 people</option>
+                            <option value="10">10 people</option>
+                            <option value="11">11 people</option>
+                            <option value="12">12 people</option>
+                            <option value="13">13 people</option>
+                            <option value="14">14 people</option>
+                            <option value="15">15 people</option>
+                            <option value="16">16 people</option>
+                            <option value="17">17 people</option>
+                            <option value="18">18 people</option>
+                            <option value="19">19 people</option>
+                            <option value="20">20 people</option>
+                          </select>
+
+                         
+                        </form>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-light" style="background-color:#6bcba4; color:white">Reserve Table</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                
+
+                </div>
+              </div>
+
+              <div class="col" style="font-size: 20px; text-align: center">
+                <header style="font-family:cursive; font-size: 30px; color:#d73059;">Operation Hours</header>
+                <br>
+                <div style="font-size: 22px">
+                <b><i>Monday: </i></b>11:00 am - 10:00 pm<br>
+                <b><i>Tuesday: </i></b>11:00 am - 10:00 pm<br>
+                <b><i>Wednesday: </i></b>11:00 am - 10:00 pm<br>
+                <b><i>Thursday: </i></b>11:00 am - 10:00 pm<br>
+                <b><i>Friday: </i></b>11:00 am - 10:00 pm<br>
+                <b><i>Saturday: </i></b> 12:00 pm - 10:00 pm<br>
+                <b><i>Sunday: </i></b> 12:00 pm - 10:00 pm<br>
+              </div>
+                 
+              </div>
+            </div>
+          </div>
+
+          <br><br>
+
+          <div>
+            <div  style="background-color:#6bcba4">
+              <div class="container mt-3">
+                <hr>
+                <h2 style="font-family:cursive; text-align: center; font-size: 30px;color:white;"><i>Customer Review</i></h2>
+                <br>
+                
+                <p style="text-align:justify; color:white; font-size:23px">
+                  
+                  <i>"Great food and service. The staff were really helpful and nice. The grilled swordfish was amazing! I never had a dish like 
+                  this before. Keep Up the Amazing Work." <b>-- Google Review</b></i>
+                  <i class="fa fa-star" style="font-size:24px; color:#ffb600"></i>
+                  <i class="fa fa-star" style="font-size:24px; color:#ffb600"></i>
+                  <i class="fa fa-star" style="font-size:24px; color:#ffb600"></i>
+                  <i class="fa fa-star" style="font-size:24px; color:#ffb600"></i>
+                  <i class="fa fa-star" style="font-size:24px; color:#ffb600"></i>
+                </p>
+              </div>
+              <hr>
+            </div>
+          </div>
+
+
+          
+          <footer class="text-center text-white" style="background-color:#6bcba4">
+            <div class="container mt-5 p-3">
+              <div class="row">
+                <div class="col-sm-4">
+                  <h5>Address</h5>
+                  <hr class="mb-3">
+                  <ul style="list-style:none; font-size: 20px;">
+                    <div>
+                    <img src="map.png" class="float-start" width="300">
+                  </div>
+                    
+                  </ul>
+                </div>
+  
+                <div class="col-sm-4">
+                  <h5>Contact</h5>
+                  <hr class="mb-3">
+                  <ul style="list-style: none" align="center">
+                    <li>
+                      <p>
+                        <i class="fa fa-envelope me-3" style="color:black; font-size:20px"></i>tadc@gmail.com</p>
+                    </li>
+  
+                    <p>
+                      <i class="fa fa-envelope-square me-3" style="color:black; font-size:20px"></i>tadc@outlook.com</p>
+                  </li>
+  
+                    <li>
+                      <p>
+                        <i class="fa fa-phone me-3" style="color:black; font-size:20px"></i>(804) 984-4530</p>
+                    </li>
+  
+                    <li>
+                      <p>
+                        <i class="fa fa-fax me-3" style="color:black; font-size:20px"></i>(804) 984-4555</p>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="col-sm-4">
+                  <h5>Social Media</h5>
+                  <hr class="mb-3">
+  
+                  <ul style="list-style: none" align="center" >
+                    
+                    <li>
+                      <a href="https://www.facebook.com/" style="font-size:18px; color:white; text-decoration:none;">
+                        <i class="fa fa-facebook-square me-3" style="color:black; font-size:20px"></i>Facebook</a>
+                    </li>
+  
+                    <a href="https://www.instagram.com/" style="font-size:18px; color:white; text-decoration:none;">
+                      <i class="fa fa-instagram me-3" style="color:black; font-size:20px"></i>Instagram</a>
+                  </li> 
+  
+                    <li>
+                      <a href="https://www.snapchat.com/" style="font-size:18px; color:white; text-decoration:none;">
+                        <i class="fa fa-snapchat-square me-3" style="color:black; font-size:20px"></i>Snapchat</a>
+                    </li>
+  
+                    <li>
+                      <a href="https://www.yelp.com/" style="font-size:18px; color:white; text-decoration:none;">
+                        <i class="fa fa-yelp me-3" style="color:black; font-size:20px"></i>Yelp</a>
+                    </li>
+  
+                   
+                  </ul>
+                
+                </div>
+  
+              </div>
+            </div>
+           
+          </footer>
+    </body>
+
+</html>
